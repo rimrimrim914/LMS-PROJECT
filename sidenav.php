@@ -3,10 +3,6 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {
-  font-family: "Lato", sans-serif;
-  transition: background-color .5s;
-}
 
 .sidenav {
   height: 100%;

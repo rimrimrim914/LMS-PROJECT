@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<title></title>
 
 	<meta charset="utf-8">
@@ -8,12 +9,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<style type="text/css">
-	footer
-	{
-		height: 200px;
-		width: 1361px;
-		background-color:red;
-	}
+	
 		.fa
 		{
 			margin: 0px 5px;
@@ -58,7 +54,7 @@
 
 </head>
 <body>
-<footer style="background-color:red; ">
+<footer>
 	<br>
 	<h3 style="color:white;text-align: center;">Contact us through social media our website</h3><br>
 

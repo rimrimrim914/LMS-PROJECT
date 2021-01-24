@@ -6,6 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	
 	<title>Feedback</title>
 	
   <meta charset="utf-8">
@@ -15,9 +16,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
     <style type="text/css">
-    	body{
-    		background-color: blue;
-    	}
+
+    	
 
     	.wrapper
     	{
@@ -39,6 +39,9 @@
     		width:80%;
     		height: 300px;
     		overflow: auto;
+    	}
+    	body{
+    		background-color: blue;
     	}
 
     </style>

@@ -23,6 +23,7 @@
  		<div class="wrapper">
  			<div class="wrapper">
  			<?php
+ 			$db=mysqli_connect("localhost","root","","lmssss"); 
 
  			if(isset($_POST['submit1']))
  			{
@@ -35,11 +36,12 @@
 
 
 
- 				$q=mysqli_query($db,"SELECT * FROM admin where username='$_SESSION[login_user]' ;");
+ 				$q=mysqli_query($db,"SELECT * FROM student where username='$_SESSION[login_user]' ;");
  			?>
  			<h2 style="text-align: center;">My Profile</h2>
 
  			<?php
+
  				$row=mysqli_fetch_assoc($q);
 
  				echo "<div style='text-align: center'>
@@ -52,7 +54,7 @@
 	 			</h4>
  			</div>
  			<?php
- 			$db=mysqli_connect("localhost","root","","lmssss"); 
+ 			
  				echo "<b>";
  				echo "<table class='table table-bordered'>";
 	 				echo "<tr>";

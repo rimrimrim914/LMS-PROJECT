@@ -1,10 +1,12 @@
 <?php
 	include "navbar.php";
 	include "connection.php";
+	$db=mysqli_connect("localhost","root","","lmssss"); 
 ?>
 <!DOCTYPE html>
 <html>
 <head>
+	
 	<title>edit profile</title>
 	<style type="text/css">
 		.form-control
@@ -27,8 +29,9 @@
 
 	<h2 style="text-align: center;color: #fff;">Edit Information</h2>
 	<?php
+	
 		
-		$sql = "SELECT * FROM admin WHERE username='$_SESSION[login_user]'";
+		$sql = "SELECT * FROM student WHERE username='$_SESSION[login_user]'";
 		$result = mysqli_query($db,$sql) or die (mysql_error());
 
 		while ($row = mysqli_fetch_assoc($result)) 

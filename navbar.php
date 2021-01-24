@@ -10,7 +10,7 @@
    
   </style>
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -64,7 +64,7 @@
             {   ?>
               <ul class="nav navbar-nav navbar-right">
 
-                <li><a href="admin_login.php"><span class="glyphicon glyphicon-log-in"> LOGIN</span></a></li>
+                <li><a href="student_login.php"><span class="glyphicon glyphicon-log-in"> LOGIN</span></a></li>
                 
                 <li><a href="registration.php"><span class="glyphicon glyphicon-user"> SIGN UP</span></a></li>
               </ul>

@@ -7,6 +7,7 @@
 <html>
 <head>
   <title>Books</title>
+  
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <style type="text/css">
@@ -16,15 +17,11 @@
 
     }
     
-    /*body {
-  background-color: #024629;
-  font-family: "Lato", sans-serif;
-  transition: background-color .5s;
-}*/
-body{
-  background-color: blue;
+    body{
+  
+  
+  background-color:blue;
 }
-
 
 .sidenav {
   height: 100%;

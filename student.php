@@ -10,11 +10,7 @@
 	<style type="text/css">
 		
 		
-		body {
-  background-color:orange;
-  font-family: "Lato", sans-serif;
-  
-}
+		
 
 nav li a:hover{
 				background-color:blue;

@@ -9,6 +9,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<style type="text/css">
+		body{
+			background-color: blue;
+		}
 
 		.srch
 		{
@@ -23,14 +26,11 @@
 			color: white;
 		}
 		
-		/*body {
+		body {
 			background-image: url("images/1111.jpg");
 			background-repeat: no-repeat;
   	font-family: "Lato", sans-serif;
   	transition: background-color .5s;
-}*/
-body{
-	background-color: blue;
 }
 
 .sidenav {

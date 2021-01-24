@@ -7,7 +7,7 @@
 	<title>
 		WELCOME TO ROYAL LMS
 	</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,8 +16,8 @@
 	{
 		float: right;
 		word-spacing: 30px;
-		padding: 20px;
-	}
+		padding: 20px;}
+
 	nav li 
 	{
 		display: inline-block;
@@ -26,6 +26,19 @@
 	nav li a:hover{
 				background-color:blue;
 				color: white;}
+ 
+.box
+{
+	height: 300px;
+	width: 450px;
+	background-color:black;
+	margin: 70px auto;
+	opacity: .6;
+	color: white;
+}
+body{
+	background-color: blue;
+}
 
 
 
@@ -33,12 +46,8 @@
 
 
 
-	header{
-		background-color: red;
-	}
-	section{
-		background-color: blue;
-	}
+
+	
 	
 </style>
 
@@ -79,7 +88,7 @@
 								<li><a href="index.php">HOME</a></li>
 								<li><a href="books.php">BOOKS</a></li>
 								<li><a href="upload.php">UPLOAD</a></li>
-								<li><a href="admin_login.php">LOGIN</a></li>
+								<li><a href="student_login.php">LOGIN</a></li>
 								<li><a href="registration.php">SIGN-UP</a></li>
 								<li><a href="feedback.php">FEEDBACK</a></li>
 							</ul>
@@ -92,11 +101,11 @@
 			
 		</header>
 		<section>
-		<div class="">
+		<div class="sec_img">
 		
-			<br><br><br>
+			
 			<div class="box">
-				<br><br><br><br>
+				
 				<h1 style="text-align: center; font-size: 35px;"><U><B>WELCOME TO ROYAL LMS</B></U></h1><br><br>
 				<h1 style="text-align: center;font-size: 25px;"><U><B>Open at: 09:00AM</B></U> </h1><br>
 				<h1 style="text-align: center;font-size: 25px;"><U><B>Close at: 5:00PM</B></U></h1><br>
